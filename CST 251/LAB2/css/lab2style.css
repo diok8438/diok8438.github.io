@@ -1,0 +1,98 @@
+
+body {
+      background-image: url(https://wallpaperset.com/w/full/6/c/4/500591.jpg);
+      background-repeat: no-repeat;
+      background-size: 250%;
+      background-blend-mode: color-burn;
+      background-color: lightpink;
+    }
+
+    h1 {
+      background-color: lightsalmon;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      border: 10px solid lightpink;
+      margin: 10px 10px 10px 10px;
+      font-family: bungee, sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 80px;
+    }
+
+    main {
+      background-color: rgba(0, 0, 0, 0,);
+      padding: 20px;
+    }
+
+    a {
+      color: lightsalmon;
+      font-family: courier, monospace;
+    }
+
+    h4 {
+      color: white;
+      font-size: 20px;
+      font-family: courier, monospace;
+    }
+
+    h2 {
+      color: white;
+      font-size: 40px;
+      font-family: bungee, sans-serif;
+      font-style: normal;
+      font-weight: 400;
+    }
+
+    h3 {
+      color: white;
+      font-size: 25px;
+      font-family: bungee, sans-serif;
+      font-style: normal;
+      font-weight: 400;
+    }
+
+    p {
+      color: white;
+      font-family: courier, monospace;
+    }
+
+    li {
+      color: white;
+      font-size: 20px;
+      font-family: courier, monospace;
+    }
+
+    figcaption {
+      color: white;
+      font-family: courier, monospace;
+    }
+
+    legend {
+      color: white;
+      font-family: courier, monospace;
+    }
+
+    label {
+      color: white;
+      font-family: courier, monospace;
+    }
+
+    img {
+      width: 30%;
+      max-width: 100%;
+      height: auto;
+      border: 10px solid lightsalmon;
+      border-radius: 35px;
+    }
+
+    button {
+      background-color: lightsalmon;
+      border: none;
+      color: white;
+      padding: 4px 4px;
+      text-align: center;
+      text-decoration: !important;
+      display: inline-block;
+      font-size: 12px;
+    }
