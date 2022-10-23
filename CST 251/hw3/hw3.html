@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+
+<link rel="stylesheet" href="css/hw3styles.css">
+
+<title>CSS Background</title>
+
+<body>
+
+<h1>CSS Background Tags and Properties</h1>
+
+
+<nav id="navbar">
+
+  <header><strong>Navigation</strong></header>
+
+  <a href="#background_color" class="nav-link">Background Color</a><br>
+  <a href="#background_image" class="nav-link">Background Image</a><br>
+  <a href="#background_repeat" class="nav-link">Background Repeat</a><br>
+  <a href="#background_attachment" class="nav-link">Background Attachment</a><br>
+  <a href="#background_position" class="nav-link">Background Position</a><br>
+
+</nav><br>
+	
+<main id="main-doc">
+	
+  <section class="main-section" id="background_color">
+
+    <header><strong>Background Color</strong></header>
+ 
+    <code>
+
+      <p>The background-color property specifies the background color of an element.</p>
+      
+	  <p>The background color of a page is set like this:</p>
+	  
+	  <p>body {
+		 background-color: lightblue;
+		  }</p>
+		
+	  <p>With CSS, a color is most often specified by:</p>
+
+      <ul>
+
+        <li>a valid color name - like "red"</li>
+
+        <li>a HEX value - like "#ff0000"</li>
+
+        <li>an RGB value - like "rgb(255,0,0)"</li>
+
+      </ul>
+
+    </code>
+
+  </section>
+
+  <section class="main-section" id="background_image">
+
+    <header><strong>Background Image</strong></header>
+    
+    <code>
+
+      <p>The background-image property specifies an image to use as the background of an element.</p>
+
+      <p>By default, the image is repeated so it covers the entire element.</p>
+
+      <ul>
+		
+	  <p>Set the background image for a page:</p>
+
+      <li>body {
+  background-image: url("paper.gif");
+}</li>
+	
+	  <p>This example shows a bad combination of text and background image. The text is hardly readable:</p>
+
+      <li>body {
+  background-image: url("bgdesert.jpg");
+}</li>
+
+	  <p>The background image can also be set for specific elements, like the p element:</p>
+		  
+      <li>p {
+  background-image: url("paper.gif");
+}</li>
+
+      </ul>
+
+    </code>
+
+  </section>
+
+  <section class="main-section" id="background_repeat">
+
+      <header><strong>Background Repeat</strong></header>
+
+      <code>
+
+      <p>By default, the background-image property repeats an image both horizontally and vertically.</p>
+
+      <p>Some images require specific settings, here are some examples:</p>
+
+      <ul>
+
+        <li>body {
+  background-image: url("gradient_bg.png");
+}</li>
+
+       <li>body {
+  background-image: url("gradient_bg.png");
+  background-repeat: repeat-x;
+}</li>
+
+       <li>body {
+  background-image: url("img_tree.png");
+  background-repeat: no-repeat;
+}</li>
+		  
+		<li>body {
+  background-image: url("img_tree.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+}</li>
+
+      </ul>
+
+    </code>
+
+  </section>
+
+  <section class="main-section" id="background_attachment">
+
+      <header><strong>Background Attachment</strong></header>
+      
+      <code>
+
+      <p>The background-attachment property specifies whether the background image should scroll or be fixed (will not scroll with the rest of the page):</p>
+
+      <p>Specify that the background image should be fixed:</p>
+
+      <ul>
+
+        <li>body {
+  background-image: url("img_tree.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-attachment: fixed;
+}</li>
+		  
+		<p>Specify that the background image should scroll with the rest of the page:</p>
+
+       <li>body {
+  background-image: url("img_tree.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-attachment: scroll;
+}</li>
+
+        <li>background_attachment sets whether a background image is fixed or scrolls with the rest of the page</li>
+
+        </ul>
+
+    </code>
+
+  </section>
+
+  <section class="main-section" id="background_position">
+
+      <header><strong>Background Position</strong></header>
+      
+      <code>
+
+      <p>To shorten the code, it is also possible to specify all the background properties in one single property. This is called a shorthand property.</p>
+
+      <p>Instead of writing:</p>
+
+      <ul>
+
+        <li>body {
+  background-color: #ffffff;
+  background-image: url("img_tree.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+}</li>
+		  
+		  <p>You can use the shorthand property background:</p>
+
+        <li>Use the shorthand property to set the background properties in one declaration:</li>
+
+        <li>body {
+  background: #ffffff url("img_tree.png") no-repeat right top;
+}
+</li>
+      
+        </ul>
+
+    </code>
+
+  </section>
+
+<br>
+	
+<footer><strong>Jaelynn Diokno 2022, Source: https://www.w3schools.com/css/css_background.asp</strong></footer>
+	
+</main>
+	
+</body>

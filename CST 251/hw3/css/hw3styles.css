@@ -1,0 +1,131 @@
+@media (max-width: 10000px) {
+
+h1 {
+	font-size: 30px;
+	text-align: left;
+	margin-left: 175px;
+}
+	
+header {
+	color: pink;
+	background-color: azure;
+	font-size: 23px;
+}
+
+body {
+	background-color: antiquewhite;
+	font-family: monospace;
+	color: saddlebrown;
+	position: absolute;
+	margin: 0;
+}
+
+main {
+	position: absolute;
+	align-content: center;
+	padding-left: 175px
+}
+
+a:hover {
+	color: lightpink;
+}
+
+a {
+	color: saddlebrown;
+}
+
+footer {
+	font-size: 15px;
+	text-align: center;
+}
+	
+#navbar {
+	font-size: 10px;
+	position: fixed;
+	top: 545px;
+	left: 5px;
+}
+
+h2 {
+	font-size: 20px;
+		
+}
+	
+}
+
+
+
+
+
+
+
+@media (max-width: 480px) {
+
+header {
+  color: hotpink;
+}	
+	
+}		text-align: left;
+	margin-left: 175px;
+}
+	
+header {
+	color: pink;
+	background-color: azure;
+	font-size: 23px;
+}
+
+body {
+	background-color: antiquewhite;
+	font-family: monospace;
+	color: saddlebrown;
+	position: absolute;
+	margin: 0;
+}
+
+main {
+	position: absolute;
+	align-content: center;
+	padding-left: 175px
+}
+
+a:hover {
+	color: lightpink;
+}
+
+a {
+	color: saddlebrown;
+}
+
+footer {
+	font-size: 15px;
+	text-align: center;
+}
+	
+#navbar {
+	font-size: 10px;
+	position: fixed;
+	top: 545px;
+	left: 5px;
+}
+
+h2 {
+	font-size: 20px;
+		
+}
+	
+}
+
+
+
+
+
+
+
+@media (max-width: 480px) {
+
+header {
+  color: hotpink;
+}
+
+}
